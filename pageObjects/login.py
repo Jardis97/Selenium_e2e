@@ -3,7 +3,7 @@ from selenium.webdriver.common.by import By
 from pageObjects.shop import ShopPage
 from utils.browserutils import BrowserUtils
 
-
+#test
 class LoginPage(BrowserUtils):
     def __init__(self, driver):
         super().__init__(driver)
